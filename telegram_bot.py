@@ -6,8 +6,9 @@ import telebot
 from telebot import types
 from random import choice as rnd_choice
 import string, random
+import os
 
-API_TOKEN = '7944260577:AAH0gA7Fo7xvep_h5zjoyQ1Ilzo-g0QK-zY'
+API_TOKEN = os.environ.get('API_TOKEN', 'YOUR_BOT_TOKEN')
 bot = telebot.TeleBot(API_TOKEN)
 
 # Простая база для хранения рефералов (в памяти)

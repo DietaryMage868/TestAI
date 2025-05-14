@@ -1,4 +1,5 @@
 flask
+pyTelegramBotAPI
 gunicorn
 sqlalchemy
 psycopg2-binary
